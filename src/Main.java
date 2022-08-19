@@ -6,13 +6,13 @@ public class Main {
         String firstName = "Ivan";
         String middleName ="Ivanovich";
         String lastName ="Ivanov";
-        String fullName = "Ivanov Ivan Ivanovich";
+        String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("ФИО сотрудника - " + fullName);
 
         // task 2
         fullName = "Ivanov Ivan Ivanovich";
-        String fullNames = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullNames);
+        String upperfullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + upperfullName);
 
         // task 3
         fullName = "Иванов Семён Семёнович";
